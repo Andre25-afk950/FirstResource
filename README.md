@@ -1,0 +1,2 @@
+# FirstResource
+Pos pertama
