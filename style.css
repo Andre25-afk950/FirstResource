@@ -1,0 +1,53 @@
+*{
+ margin:0;padding:0;
+}
+body{
+ width:320px;
+ margin:0 auto;
+ font-family:fantasy;
+ background:lavender;
+}
+.title{
+ background:gray;
+ height:18px;
+ font-size:18px;
+ padding:6px;
+ margin:18px auto 14px;
+ font-style:italic;
+ color:white;
+}
+.lirik{
+ font-size:14px;
+ height:300px;
+ overflow:scroll;
+ padding:4px;
+ white-space:pre-line;
+}
+.foot{
+ margin:12px auto;
+ text-align:right;
+ font-size:10px;
+}
+.vidio{
+ width:300px;
+ height:calc(0.5625*300px);
+ position:relative;
+ margin:12px auto;
+ border:2px solid red;
+ border-radius:4px;
+ overflow:scroll;
+}
+.draw{
+ width:100%;height:100%;
+ position:relative;
+ left:0;
+ top:0;
+ float:left;
+}
+.plyBtn{
+ width:74px;
+ height:32px;
+ position:absolute;
+ bottom:10px;
+ left:18px;
+}
