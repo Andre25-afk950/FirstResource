@@ -4,7 +4,7 @@ let createVideo = function(){
   let box = document.getElementsByClassName("vidio");
   
   let gambar = new Image();
-  gambar.src="res/thumbnail.jpg";
+  gambar.src="Res/thumbnail.jpg";
   
   let canvas = document.createElement("canvas");
   let ctx = canvas.getContext("2d");
