@@ -1,10 +1,10 @@
 let video = document.createElement("video");
-video.src="https://drive.google.com/uc?export=download&id=1DgNw88S2GDuZnUWY77ydKQkkB4j0bKIY";
+video.src="Res/res.mp4";
 let createVideo = function(){
   let box = document.getElementsByClassName("vidio");
   
   let gambar = new Image();
-  gambar.src="https://drive.google.com/uc?export=download&id=1FqBavQ62JiqONRh2sOOYNPJWyG71XVbL";
+  gambar.src="res/thumbnail.jpg";
   
   let canvas = document.createElement("canvas");
   let ctx = canvas.getContext("2d");
@@ -53,7 +53,7 @@ function btnPlay(){
     let bHeight = btn.height = 32;
     
     let playImage = new Image();
-    playImage.src = "https://drive.google.com/uc?export=download&id=1SIoMQRnJrcCFeHhojm1aN2HYnx31GGNM";
+    playImage.src = "Res/play.png";
     
     box[0].append(btn);
     btn.setAttribute("class","plyBtn")
