@@ -1,1 +1,0 @@
-let text = "Hello World";
